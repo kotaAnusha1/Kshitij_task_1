@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+    
+   
+}
+.navbar{
+   
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 100%;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 200;
+    
+
+   
+}
+
+
+.girlimg img{ 
+    display: flex;
+   height: 100%;
+   width: 100%;
+   margin: 74px 2px;
+   padding: 5px 0;
+   
+   
+}
+.navbar a{
+    position: fixed;
+    font-size: 18px;
+    color: rgb(10, 8, 8);
+    text-decoration: none;
+   
+
+  
+}
+.navbar img{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 158px;
+    height: 85px;
+    float: left;
+    padding: 9px 5px;
+    margin: -5px 30px;
+}
+.navbar {
+    background-color: rgb(132, 90, 90);
+}
+   
+
+.search{
+    position: fixed;
+    top: 16px;
+    right: 5px;
+    
+    
+   
+}
+.navbar input{
+    border-radius: 100px;
+    padding: 10px 10px;
+    margin: 4px 20px;
+    border: 2px solid black;
+}
+.Home{
+    
+    position: fixed;
+    font-size: 23px;
+   
+    top: 30px;
+    left: 994px;
+    height: 5px;
+    font-family: serif;
+}
+.Books{
+   position: fixed;
+    font-size: 23px;
+    
+    top: 30px;
+    left: 1084px;
+    height: 5px;
+    font-family: serif;
+
+}
+.About{
+    position: fixed;
+    font-size: 23px;
+   
+    top: 30px;
+    left: 1380px;
+    height: 5px;
+    font-family: serif;
+    
+}
+.Reviews{
+    position: fixed;
+    font-size: 23px ;
+   
+    top: 30px;
+    left: 1169px;
+    height: 5px;
+    font-family: serif;
+
+}
+.Contact{
+    position: fixed;
+    font-size: 25px ;
+    
+    top: 30px;
+    left: 1150px;
+    height: 5px;
+    font-family: serif;
+    
+}
+.intro{
+   position: relative;
+   width: 100%;
+   margin: 70x auto;
+   color: black;
+   top: 250px;
+   left: -600px;
+   font-size: 60px;
+   font-family: serif;
+
+
+ 
+   
+
+}
+.background{
+    position: relative;
+}
+.shop{
+    position: absolute;
+    top: 295px;
+    left: -9px;
+   
+   width: 100%;
+   margin: 70px 70px;
+   color: black;
+   font-size: 60px;   
+   font-family: serif; 
+   z-index: 143;
+ 
+}
+.intro{
+    position: absolute; 
+    top: 393px;
+    left: -21px;
+   
+   width: 100%;
+   margin: 70px 70px;
+   color: black;
+   font-size: 69px;   
+   font-family: serif; 
+   z-index: 143;
+  
+}
+.girlimg a{
+    position: relative;
+    left:48px;
+    top: -370px;
+    display: flex;
+    margin: 2px 2px;
+    width: 216px;
+    background-color: white;
+    border-radius: 215px;
+    padding: 25px 50px;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid black;
+    color: black;
+}
+.navbar a:hover{
+    color: white;
+}
+.girlimg a:hover{
+    color: white;
+    background-color: black;
+}
+.best_seller{
+    height: 902px;
+    margin: -159px -18px;
+    position: relative;
+    background-color: #e4e5e0;
+}
+.recomend{
+    height: 902px;
+    margin: 0px -18px;
+    position: relative;
+    background-color:#e4e5e0;
+}
+.Recomend{
+    margin: 40px 7px;
+    padding: 3.5px;
+    text-align: center;
+    font-size: 100px;
+}
+.view{
+    padding: 3.5px;
+}
+.tit3{
+    margin: 63px 1px;
+    text-align: center;
+    font-size: 89px;
+}
+.subtitle{
+    text-align: center;
+    font-size: 107px;
+}
+.bookcard{
+    display: flex;
+    width: 1104px;
+    margin: 72px auto;
+    justify-content: space-between;
+
+}
+.carde{
+    height: 379px;
+    justify-content: space-between;
+    margin: 20px -149px;
+    width: 272px;
+    background-color:rgb(244, 240, 237) ;
+    display: flex;
+    flex-direction: column;
+}
+.carde img{
+    height: 205px;
+    width: 224px;
+    margin: 31px 24px;
+
+}
+.carde p{
+    margin: 13px 3px;
+    text-align: center;
+    font-size: 31px;
+    padding: 2px 3px;
+
+}
+.price h4{
+    margin: 3px -5px;
+    font-size: 25px;
+}
+
+.price{
+    display: flex;
+    width: 200px ;
+    margin: -2px auto;
+    justify-content: space-between;
+}
+.price p{
+    margin: 13px -19px;
+    font-size: 14px;
+    color: brown;
+}
+.review{
+    height: 902px;
+    margin: 0px -18px;
+    position: relative;
+    background-color:#e4e5e0;
+}
+
+.tit4{
+    font-size: 70px;
+    padding: 3.5px;
+    text-align: center;
+}
+.review_card{
+    display: flex;
+    width: 1104px;
+    margin: 72px auto;
+    justify-content: space-between;
+
+}
+.cardr{
+    height: 379px;
+    justify-content: space-between;
+    margin: 20px -149px;
+    width: 272px;
+    background-color:rgb(244, 240, 237) ;
+    display: flex;
+    flex-direction: column;
+}
+.cardr img{
+border-radius: 290px;
+    height: 205px;
+    width: 224px;
+    margin: 28px 30px;
+
+}
+.cardr p{
+    margin: 13px 3px;
+    text-align: center;
+    font-size: 31px;
+    padding: 2px 3px;
+    text-decoration: none;
+
+}
+.quote h6{
+    margin: 3px -5px;
+    font-size: 25px;
+}
+.quote p{
+    text-decoration: none;
+    margin: 8px -57px;
+    font-size: 23px;
+    padding: 2px 55px;
+}
+.quote{
+    display: flex;
+    width: 200px ;
+    margin: -2px auto;
+    justify-content: space-between;
+}
+.quote h3{
+    margin: 13px -19px;
+    font-size: 14px;
+    color: black;
+}
+.quote img{
+    width: 151px;
+    height: 42px;
+    margin: 2px 15px;
+    padding: 2px 2px;
+}
+.Footer{
+    background-color: rgb(132, 90, 90);
+    padding: 0vw 0vw;
+    max-resolution: 0vw auto;
+}
+.Foot{
+    margin: 0vw 1vw;
+    width: 100%;
+    padding: 3px 141px;
+
+}
+.social{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.socail a{
+     padding: 0vw ovw;
+     margin: 1vw 2vw;
+     border-radius: 50%;
+
+}
+
+
+.social img{
+    padding: 1px 5px;
+    margin: 6px 14px;
+    height: 52px;
+    width: 66px;
+
+}
+.social p{
+    color: #ffe9c7;
+    position: relative;
+    bottom: 0vw ;
+    left: -24vw;
+    margin: -1vw 19vw;
+    padding: 1vw 1vw;
+    
+}
+.Footer{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.links p:hover{
+    color: black;
+}
+.card3 input{
+    border: 1px solid clack;
+    margin: 3px;
+    padding: 1px 2px;
+}
+.card3{
+    background-color: rgb(244, 240, 237);
+    display: flex;
+    flex-direction: column;
+    height:270px ;
+    width: 270px;
+    padding: 1px 46px;
+    margin: -58px 638px;
+}
+.your{
+    font-size: 28px;
+    margin: 37px 2px;
+    padding: 2px 2px;
+}
+.html{
+    scroll-behavior: smooth;
+}
+
+
